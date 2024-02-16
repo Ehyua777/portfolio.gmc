@@ -1,7 +1,41 @@
-body {
-    background-color: beige;
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    font-family: "Roboto Slab", serif;
 }
 
 nav {
-    display: inline;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav li a {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #0F0;
+}
+
+nav li a:active {
+    color: #FF8000;
+}
+
+nav li a:focus {
+    color: #FF8000;
+    text-decoration: underline;
+}
+
+nav li a:visited {
+    color: #666;
 }
