@@ -10,6 +10,7 @@ $backgroundImg1: url("https://github.com/Ehyua777/imgs-bank/blob/main/BK.png?raw
 
 body {
     font-family: "Roboto Slab", serif;
+    background-color: #da8f47;
 
     .container {
         width: 90%;
@@ -73,16 +74,25 @@ body {
         }
 
         main {
-            //margin-top: 0px;
+            width: 1312px;
 
             section {
                 padding: 5px;
-                background-color: rgba(12, 12, 12, 0.103);
+                background-color: rgb(249, 251, 250, 0.5);
+
             }
 
             .separator {
                 height: 5px;
             }
+        }
+
+        aside {
+            width: 260px;
+            height: auto;
+            border-color: #00ff73;
+            border-style: solid;
+            border-width: 1px;
         }
 
         footer {

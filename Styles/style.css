@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
 body {
   font-family: "Roboto Slab", serif;
+  background-color: #da8f47;
 }
 body .container {
   width: 90%;
@@ -57,12 +58,22 @@ body .container header nav li a:hover {
 body .container header nav li a:focus {
   color: #00ff73;
 }
+body .container main {
+  width: 1312px;
+}
 body .container main section {
   padding: 5px;
-  background-color: rgba(12, 12, 12, 0.103);
+  background-color: rgba(249, 251, 250, 0.5);
 }
 body .container main .separator {
   height: 5px;
+}
+body .container aside {
+  width: 260px;
+  height: auto;
+  border-color: #00ff73;
+  border-style: solid;
+  border-width: 1px;
 }
 body .container footer {
   height: 100px;
