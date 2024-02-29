@@ -1,91 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
-body {
-  font-family: "Roboto Slab", serif;
-  background-color: #da8f47;
-}
-body .container {
-  width: 90%;
-  margin-left: 5%;
-  padding-left: 1px;
-  padding-right: 1px;
-}
-body .container header {
+body header {
   background-image: url("https://github.com/Ehyua777/imgs-bank/blob/main/BK.png?raw=true");
-  height: 150px;
-  margin-bottom: 5px;
+  background-size: cover;
 }
-body .container header #logo {
-  width: 300px;
-  height: 50px;
-  margin-bottom: 5px;
-  background-color: rgba(233, 239, 233, 0.7);
+body main iframe {
+  width: 560px;
+  height: 315px;
 }
-body .container header #logo a {
-  width: 100%;
-  height: 100%;
-  text-decoration: none;
-  font-size: xx-large;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-body .container header #logo a:hover {
-  color: white;
-  background-color: rgba(45, 86, 4, 0.5);
-}
-body .container header nav {
-  width: 100%;
-  height: 40px;
-  background-color: rgba(3, 3, 3, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-body .container header nav li {
-  display: inline;
-}
-body .container header nav li a {
-  font-weight: bold;
-  font-size: 18px;
-  text-decoration: none;
-  padding: 5px;
-  color: rgb(249, 251, 250);
-}
-body .container header nav li a:hover {
-  background-image: url("https://github.com/Ehyua777/imgs-bank/blob/main/BK.png?raw=true");
-  color: black;
-}
-body .container header nav li a:focus {
-  color: #00ff73;
-}
-body .container main {
-  width: 1312px;
-}
-body .container main section {
-  padding: 5px;
-  background-color: rgba(249, 251, 250, 0.5);
-}
-body .container main .separator {
-  height: 5px;
-}
-body .container aside {
-  width: 260px;
-  height: auto;
-  border-color: #00ff73;
-  border-style: solid;
-  border-width: 1px;
-}
-body .container footer {
-  height: 100px;
-  background-image: url("https://github.com/Ehyua777/imgs-bank/blob/main/BK.png?raw=true");
-  margin-top: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-body .container footer h3 {
-  color: black;
-  padding: 5px;
-  border-radius: 10px 0px 10px 0px;
-  background-color: rgba(254, 254, 254, 0.426);
+body footer {
+  background: url("https://github.com/Ehyua777/imgs-bank/blob/main/BK.png?raw=true");
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
